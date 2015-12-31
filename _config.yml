@@ -1,27 +1,34 @@
-name: kiwifig
-description: computer vision and computer graphic digger 
-
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-# Setup
-title:            kiwifig
-tagline:          'A image matrix digger'
-description:      'computer vision and computer graphic digger .'
-
+# Site settings
+title: Emerald | A simple Jekyll blog
+description: "A minimal blog template, build with Jekyll."
+url: "http://www.jacoporabolini.com/emerald"
 author:
-  name:           'kiwi'
-  url:            http://kiwifig.github.io
+  name: "Jacopo Rabolini"
+  email: "hello@jacoporabolini.com"
+  url: "http://www.jacoporabolini.com"
 
-paginate:         5
+# Build settings
+baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
 
-# Custom vars
-version:          2.1.0
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-github:
-  repo:           https://github.com/kiwifig
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
