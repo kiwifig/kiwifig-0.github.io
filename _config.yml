@@ -13,12 +13,10 @@ relative_permalinks: true
 title:            kiwifig
 tagline:          'A image matrix digger'
 description:      'computer vision and computer graphic digger .'
-url:              http://hyde.getpoole.com
-baseurl:          /
 
 author:
   name:           'kiwi'
-  url:            https://twitter.com/mdo
+  url:            http://kiwifig.github.io
 
 paginate:         5
 
@@ -26,4 +24,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/kiwifig
