@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 # Java 包装c++ class
 
