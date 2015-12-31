@@ -7,6 +7,7 @@ layout: post
 title: Java package c++ in jni
 categories: programming
 tags: [jni]
+
 ---
 
 # Java 包装c++ class
