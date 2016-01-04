@@ -1,20 +1,18 @@
-title: Jason Ansel
-#tagline:          A short tagline
-title: Emerald | A simple Jekyll blog
+title: kiwifig
 #description:      Describe your website.
 url: http://jasonansel.com
 
 # Owner/author information
 owner:
-  name:           Jason Ansel
-  avatar:         jasonansel.jpg
+  name:           kiwifig
+  avatar:         favicon.png
 #  bio:
-  email:          jasonansel@jasonansel.com
+  email:          kiwifig@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:
   facebook:
-  github: jansel
-  linkedin: jansel
+  github: kiwifig
+  linkedin: kiwifig
   instagram:
   lastfm:
   tumblr:
@@ -36,7 +34,7 @@ links:
     url: /hobbies/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: America/New_York
+timezone: China/Bei_Jing
 future: true
 pygments: true
 #markdown: kramdown
@@ -61,5 +59,3 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-
